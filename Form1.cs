@@ -1,4 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace RandomBirthDate
@@ -50,6 +57,11 @@ namespace RandomBirthDate
             if (number >= 1 && number <= 9) resNumber = "0" + number;
             else resNumber = number.ToString();
             return resNumber;
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
