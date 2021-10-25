@@ -58,10 +58,5 @@ namespace RandomBirthDate
             else resNumber = number.ToString();
             return resNumber;
         }
-
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
