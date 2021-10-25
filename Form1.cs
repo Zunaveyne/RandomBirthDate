@@ -32,7 +32,7 @@ namespace RandomBirthDate
                 return;
              }
 
-            if (age == 0) 
+            if (age == 0) //рандомная дата при 0
             {
                 currentYear -= rand.Next(18, 60);
                 dayBirth = rand.Next(1, 30);
@@ -50,7 +50,7 @@ namespace RandomBirthDate
             else MessageBox.Show("Нужно больше 0", "Critical Warning", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
-        static string ResNumber(int number)
+        static string ResNumber(int number) //дописывание 0 в выводе
         {
             string resNumber;
 
